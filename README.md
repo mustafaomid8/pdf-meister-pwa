@@ -1,29 +1,21 @@
-# PDF Meister PWA
+# PDF Meister PWA / PDF Meister Web-App
 
-Free personal PDF PWA for iPhone Safari, Android, Windows and desktop browsers.
+A free browser-based PDF merge app with English and German language switch.
 
-## What works now
+Eine kostenlose PDF-Web-App mit Sprachumschalter für Englisch und Deutsch.
 
-- Select multiple PDF files
-- Reorder files
-- Remove files
-- Merge PDFs into one PDF in the browser
-- Download/share final PDF
-- Add to iPhone Home Screen
-- Light/dark mode
+## Features / Funktionen
 
-## Free iPhone use
+- Select multiple PDF files / Mehrere PDF-Dateien auswählen
+- Reorder files before merge / Dateien vor dem Zusammenfügen sortieren
+- Remove files / Dateien entfernen
+- Merge PDFs in the browser / PDFs direkt im Browser zusammenfügen
+- Download or share final PDF / Finale PDF herunterladen oder teilen
+- Light and dark mode / Hell- und Dunkelmodus
+- Add to iPhone Home Screen / Zum iPhone-Home-Bildschirm hinzufügen
 
-1. Upload these files to GitHub Pages or any web hosting.
-2. Open the website in iPhone Safari.
-3. Tap Share.
-4. Tap Add to Home Screen.
+## GitHub Pages
 
-No Apple Developer account is needed for this PWA method.
+Upload all files to a public GitHub repository and enable GitHub Pages from the `main` branch and `/root` folder.
 
-## Notes
-
-The PDF merge engine loads from CDN:
-https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js
-
-For protected/encrypted PDFs, merging may fail.
+Alle Dateien in ein öffentliches GitHub-Repository hochladen und GitHub Pages über Branch `main` und Ordner `/root` aktivieren.
