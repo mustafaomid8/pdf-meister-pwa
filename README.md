@@ -1,21 +1,46 @@
-# PDF Meister PWA / PDF Meister Web-App
+# PDF Meister PWA - Standard Human-Checked Version
 
-A free browser-based PDF merge app with English and German language switch.
+This is a free web/PWA PDF tool designed for iPhone Safari Add-to-Home-Screen, Android, and desktop browsers.
 
-Eine kostenlose PDF-Web-App mit Sprachumschalter für Englisch und Deutsch.
+## Included features
 
-## Features / Funktionen
+- English / Deutsch switch
+- Responsive Google/Material-style layout
+- Attach multiple PDFs and images
+- Each attached file has icon, name, size, page count, rotate, reorder and individual delete button
+- Merge PDFs/images into one PDF
+- Rotate files before merge
+- Remove selected pages from one PDF
+- Extract pages
+- Split selected PDF into a ZIP of page PDFs
+- Add page numbers
+- Add watermark
+- Fill & Sign basic mode: add text and draw/place signature on the first page
+- Image/scan to PDF
+- Simple report creator
+- PWA manifest and service worker
 
-- Select multiple PDF files / Mehrere PDF-Dateien auswählen
-- Reorder files before merge / Dateien vor dem Zusammenfügen sortieren
-- Remove files / Dateien entfernen
-- Merge PDFs in the browser / PDFs direkt im Browser zusammenfügen
-- Download or share final PDF / Finale PDF herunterladen oder teilen
-- Light and dark mode / Hell- und Dunkelmodus
-- Add to iPhone Home Screen / Zum iPhone-Home-Bildschirm hinzufügen
+## Important limitations
+
+This is browser-only and free. Some professional Acrobat functions need a backend or native app, for example:
+
+- Strong PDF compression
+- Password protect/unlock
+- Redaction
+- DOCX/XLSX/PPT conversion
+- Full PDF editing with text recognition
+- WhatsApp native share-to-app on iOS
 
 ## GitHub Pages
 
-Upload all files to a public GitHub repository and enable GitHub Pages from the `main` branch and `/root` folder.
+Upload these files to your GitHub Pages repository:
 
-Alle Dateien in ein öffentliches GitHub-Repository hochladen und GitHub Pages über Branch `main` und Ordner `/root` aktivieren.
+- index.html
+- manifest.json
+- sw.js
+- icon.svg
+- icon-192.png
+- icon-512.png
+- README.md
+
+Then enable GitHub Pages from Settings > Pages > Deploy from branch > main > /root.
